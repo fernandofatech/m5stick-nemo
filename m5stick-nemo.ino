@@ -10,7 +10,7 @@
 
 String buildver="2.2.1";
 #define BGCOLOR BLACK
-#define FGCOLOR GREEN
+#define FGCOLOR RED
 
 // -=-=- NEMO Portal Language -=- Thanks, @marivaaldo! -=-=-
 #define LANGUAGE_EN_US
@@ -195,9 +195,9 @@ struct QRCODE {
 
 QRCODE qrcodes[] = {
   { "Back", "" },
-  { "Rickroll", "https://youtu.be/dQw4w9WgXcQ"},
-  { "HackerTyper", "https://hackertyper.net/"},
-  { "ZomboCom", "https://html5zombo.com/"},
+  { "EvilPortal Creds", "https://172.0.0.1/creds"},
+  { "Github", "https://github.com/fernandofatech/m5stick-nemo"},
+  { "instagram", "https://www.instagram.com/fernandofatech/"},
 };
 
 bool isSwitching = true;
